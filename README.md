@@ -26,4 +26,5 @@ on /system scheduler configure as shown in the image
 >As a code we will use the MOL.RSC file from this same GIT. You can insert the complete code.
 >The only editing you need to do is from the sender.
 >You can change the sender on line 20 of the code:
->'/tool e-mail send to="DESTINATION_EMAIL" subject=("usuario(s) logados data/hora ".[/system clock get date]." ".[/system clock get time]." mikrotik ".[/system identity get name]) body=$tmpMessage;'
+>
+>/tool e-mail send to="DESTINATION_EMAIL" subject=("usuario(s) logados data/hora ".[/system clock get date]." ".[/system clock get time]." mikrotik ".[/system identity get name]) body=$tmpMessage;
